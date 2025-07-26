@@ -8,6 +8,7 @@ An opinionated Claude Code setup for Ruby on Rails software development.
 The `agents` folder goes into `~/.claude/agents`
 
 - **app-sentiment-researcher** - Analyzes user sentiment for applications by researching negative feedback across forums, review sites, and discussions to identify pain points and improvement opportunities
+- **brainstormer** - Generates exhaustive ideation and research for app ideas, product concepts, or problem solutions with comprehensive lists of possibilities and features
 - **domain-availability-checker** - Generates domain name suggestions and checks availability for .com and .ai extensions based on keywords or business descriptions
 - **twitter-expert-finder** - Identifies and analyzes influential Twitter users within specific industries or topics, discovering prolific tweeters who shape conversations in their domain
 
