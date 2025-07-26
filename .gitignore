@@ -1,0 +1,20 @@
+# Ignore everything
+*
+
+# But not these directories
+!commands/
+!commands/**
+!agents/
+!agents/**
+
+# And don't ignore .gitignore itself
+!.gitignore
+
+# Allow README.md
+!README.md
+
+# Allow settings.json
+!settings.json
+
+# Allow install.sh
+!install.sh
