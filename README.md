@@ -7,7 +7,8 @@ An opinionated Claude Code setup for Ruby on Rails software development.
 
 The `agents` folder goes into `~/.claude/agents`
 
-Coming soon...
+- **app-sentiment-researcher** - Analyzes user sentiment for applications by researching negative feedback across forums, review sites, and discussions to identify pain points and improvement opportunities
+- **domain-availability-checker** - Generates domain name suggestions and checks availability for .com and .ai extensions based on keywords or business descriptions
 
 ## Commands
 
@@ -30,8 +31,6 @@ The `commands` folder goes into `~/.claude/commands`
 - **reflect** - Captures and saves key learnings from completed tasks
 - **lw** - Provide a summary of last weeks work appropriate for non-technical stakeholders
 - **today** - Provide a summary of todays work appropriate for non-technical stakeholders
-
-
 
 ## MCP Servers
 
