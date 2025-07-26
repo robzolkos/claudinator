@@ -13,6 +13,9 @@ Coming soon...
 
 The `commands` folder goes into `~/.claude/commands`
 
+### Ideation
+- **domain-search** - Finds available .com and .ai domain names based on business ideas or keywords
+
 ### Development Workflow
 - **issue** - Creates well-structured GitHub issues from feature descriptions
 - **work** - Analyzes GitHub issue, creates branch, plans implementation, then executes the work
@@ -27,6 +30,7 @@ The `commands` folder goes into `~/.claude/commands`
 - **reflect** - Captures and saves key learnings from completed tasks
 - **lw** - Provide a summary of last weeks work appropriate for non-technical stakeholders
 - **today** - Provide a summary of todays work appropriate for non-technical stakeholders
+
 
 
 ## MCP Servers
