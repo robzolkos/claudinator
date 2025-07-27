@@ -17,6 +17,7 @@ The `agents` folder goes into `~/.claude/agents`
 The `commands` folder goes into `~/.claude/commands`
 
 ### Ideation
+- **ideator** - Provides comprehensive analysis for business ideas including variations, market sentiment, domains, and influencers
 - **domain-search** - Finds available .com and .ai domain names based on business ideas or keywords
 
 ### Development Workflow
