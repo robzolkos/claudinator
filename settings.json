@@ -1,3 +1,8 @@
 {
-    "includeCoAuthoredBy": false
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "includeCoAuthoredBy": false,
+  "feedbackSurveyState": {
+    "lastShownTime": 1754074325688
+  },
+  "model": "opusplan"
 }
