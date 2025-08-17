@@ -1,6 +1,9 @@
-# Domain Search Command
+---
+description: Find available domain names for your business or project idea using AI-powered generation and parallel availability checking
+model: sonnet
+---
 
-This command helps you find available domain names for your business or project idea.
+This command helps you find available domain names for your business or project idea using a two-stage approach for optimal results.
 
 ## Usage
 
@@ -25,9 +28,9 @@ To search for available domains, use:
 
 ## What it does
 
-1. Generates creative domain name suggestions based on your input
-2. Checks availability for both .com and .ai extensions
-3. Shows you which domains are available for registration
+1. **Generate Ideas**: Uses the domain-name-generator agent to create 15-20 creative domain name suggestions
+2. **Check Availability**: Runs multiple domain-availability-checker agents in parallel to efficiently check all suggestions
+3. **Summarize Results**: Presents available domains organized by category and extension
 
 ## Tips
 
@@ -37,7 +40,7 @@ To search for available domains, use:
 
 ---
 
-When you run this command, I'll use the domain-availability-checker agent to:
-- Generate relevant domain name ideas
-- Check their availability using whois lookups
-- Present you with available options to choose from
+When you run this command, I'll:
+1. Use the domain-name-generator agent to create creative domain suggestions based on your input
+2. Launch parallel domain-availability-checker agents to check availability of all suggested domains
+3. Compile and present a summary of available domains with recommendations
