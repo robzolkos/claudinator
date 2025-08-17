@@ -9,7 +9,8 @@ The `agents` folder goes into `~/.claude/agents`
 
 - **app-sentiment-researcher** - Analyzes user sentiment for applications by researching negative feedback across forums, review sites, and discussions to identify pain points and improvement opportunities
 - **brainstormer** - Generates exhaustive ideation and research for app ideas, product concepts, or problem solutions with comprehensive lists of possibilities and features
-- **domain-availability-checker** - Generates domain name suggestions and checks availability for .com and .ai extensions based on keywords or business descriptions
+- **domain-availability-checker** - Checks domain name availability for .com and .ai extensions using whois lookups for specific domain lists
+- **domain-name-generator** - Generates creative domain name suggestions based on keywords or business descriptions using industry naming patterns
 - **twitter-expert-finder** - Identifies and analyzes influential Twitter users within specific industries or topics, discovering prolific tweeters who shape conversations in their domain
 
 ## Commands
@@ -18,7 +19,7 @@ The `commands` folder goes into `~/.claude/commands`
 
 ### Ideation
 - **ideator** - Provides comprehensive analysis for business ideas including variations, market sentiment, domains, and influencers
-- **domain-search** - Finds available .com and .ai domain names based on business ideas or keywords
+- **domain-search** - Two-stage domain discovery: generates 15-20 creative domain suggestions, then checks availability in parallel for efficient results
 
 ### Development Workflow
 - **issue** - Creates well-structured GitHub issues from feature descriptions
